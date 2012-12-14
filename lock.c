@@ -4,6 +4,9 @@
 #include <fcntl.h>
 #include <unistd.h>
 
+
+// test comment
+
 int main(int argc, char *argv[])
 {
 	struct flock f1 = { F_WRLCK, SEEK_SET, 0, 0, 0 };
